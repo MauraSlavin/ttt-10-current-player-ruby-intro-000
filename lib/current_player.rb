@@ -5,6 +5,7 @@ def turn_count(board)
       turns += turns
     end   # of if
   end   # of each
+  turns
 end   # of turn_count
 
 
