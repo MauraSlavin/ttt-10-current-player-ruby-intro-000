@@ -2,7 +2,7 @@ def turn_count(board)
   turns= 0
   board.each do | cell |
     if cell == "X" || cell =+ "O"
-      turns += turns
+      turns += 1
     end   # of if
   end   # of each
   turns
